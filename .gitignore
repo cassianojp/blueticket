@@ -1,0 +1,6 @@
+# Byte-compiled / optimized / DLL files
+test/__pycache__/
+test/.pytest_cache/
+test/.DS_Store/
+translate/__pycache__/
+translate/.DS_Store/

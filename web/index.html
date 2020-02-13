@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tradutor de Números</title>
+    <style type="text/css">
+        BODY{
+            font-family: verdana;
+        }
+    </style>
+</head>
+<body>
+<h1>Desafio</h1>
+<p>Web service de tradução de número por extenso.</p>
+
+<i>Obs.: o desenvolvimento da aplicação foi feita sob a versão 3.7.6 do Python.</i><br/>
+
+
+
+<h2>Pré-requisitos</h2>
+São necessários os seguintes frameworks para executar a aplicação com sucesso:
+<h3>Flask (framework web)</h3>
+Para instalar, execute o seguinte comando:
+<pre>
+  <code>
+ $ pip3 install flask
+  </code>
+</pre>
+
+<h3>Pytest (framework de testes)</h3>
+Para instalar, execute o seguinte comando:
+<pre>
+  <code>
+ $ pip3 install pytest
+  </code>
+</pre>
+
+<h2>Para executar a aplicação</h2>
+No diretório raiz da aplicação, execute o seguinte comando:
+<pre>
+  <code>
+ $ python3 app.py
+  </code>
+</pre>
+Para testar o funcionamento pode-se utilizar o comando curl na porta 3000. Exemplos:
+<pre>
+  <code>
+ $ curl http://localhost:3000/99635
+</code>
+</pre>
+<pre>
+  <code>
+ $ curl http://localhost:3000/-12345
+</code>
+</pre>
+<pre>
+  <code>
+ $ curl http://localhost:3000/13
+</code>
+</pre>
+Este README também pode ser visualizado digitando o seguinte link no seu web browser:
+<pre>
+  <code>
+ http://localhost:3000
+</code>
+</pre>
+Para parar o serviço pressione as teclas:
+<pre>
+  <code>
+ Ctrl+C
+</code>
+</pre>
+
+<h2>Para aplicar os testes unitários de software</h2>
+Altere o diretório para:
+<pre>
+  <code>
+ $ cd test/
+</code>
+</pre>
+e execute o seguinte comando:
+<pre>
+  <code>
+ $ pytest
+</code>
+</pre>
+Se tudo estiver correto no código, conforme os testes programados, uma mensagem de sucesso será apresentada.
+</body>
+</html>
