@@ -1,6 +1,10 @@
 # Desafio
 Web service de tradução de número por extenso.
 
+_"Na linguagem de sua preferência, crie um servidor HTTP que, para cada requisição GET, retorne um JSON cuja chave extenso seja a versão por extenso do número inteiro enviado no path. Os números podem estar no intervalo [-99999, 99999].
+Não esqueça dos "e"s separando milhares, centenas e dezenas (vide exemplo): "noventa e quatro mil e quinhentos e oitenta e sete". Esse não é o padrão da norma culta da língua portuguesa, e isso é intencional.
+É esperado que você implemente o algoritmo de tradução."_
+
 _Obs.: o desenvolvimento da aplicação foi feita sob a versão 3.7.6 do Python._
 
 ## Pré-requisitos
